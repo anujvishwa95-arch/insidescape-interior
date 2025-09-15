@@ -1,0 +1,287 @@
+/* Body and Typography */
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+  background: #101123;
+  color: #fff;
+}
+/* Navbar Styling */
+.navbar {
+  background: #101123;
+  display: flex;
+  align-items: center;
+  padding: 18px 28px;
+  justify-content: space-between;
+  box-shadow: 0 3px 8px #0002;
+}
+.logo {
+  height: 60px;
+  margin-right: 24px;
+}
+/* Navigation Menu */
+nav ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: #D4AF37;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/* WhatsApp Button */
+.whatsapp-btn {
+  background: #25d366;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 2px 8px #128c7ebc;
+  font-size: 1rem;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: #181B2A;
+  padding: 60px 20px 40px 20px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 14px;
+  color: #D4AF37;
+  letter-spacing: 0.5px;
+}
+.hero p {
+  font-size: 1.15rem;
+  margin-bottom: 24px;
+  color: #fff;
+}
+.cta-btn {
+  background: #D4AF37;
+  color: #101123;
+  border: none;
+  padding: 14px 38px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #b28f28;
+  color: #fff;
+}
+/* Services Grid */
+.services {
+  background: #181B2A;
+  padding: 50px 10px 32px 10px;
+}
+.services h2 {
+  font-size: 2rem;
+  color: #D4AF37;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.services-grid div {
+  background: #232342;
+  border-radius: 14px;
+  text-align: center;
+  padding: 12px 6px 18px 6px;
+  box-shadow: 0 2px 18px #0003;
+  transition: transform 0.22s;
+}
+.services-grid div:hover {
+  transform: translateY(-7px) scale(1.04);
+  box-shadow: 0 8px 30px #D4AF3740;
+}
+.services-grid img {
+  width: 95%;
+  max-width: 140px;
+  max-height: 110px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.services-grid span {
+  color: #D4AF37;
+  display: block;
+  font-weight: 600;
+  font-size: 1.09rem;
+}
+/* Estimate Cards Section */
+.estimate-cards {
+  background: #faf5ea;
+  color: #21214f;
+  padding: 42px 10px 29px 10px;
+}
+.estimate-cards h2 {
+  text-align: center;
+  margin-bottom: 26px;
+  font-size: 2rem;
+}
+.card-container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.calc-card {
+  background: #fff;
+  border-radius: 16px;
+  color: #21214f;
+  text-align: center;
+  padding: 28px 18px;
+  min-width: 236px;
+  max-width: 370px;
+  box-shadow: 0 5px 22px #D4AF3744;
+  transition: transform 0.19s;
+}
+.calc-card:hover {
+  transform: translateY(-5px) scale(1.04);
+  box-shadow: 0 10px 28px #D4AF3744;
+}
+.calc-card img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+.calc-card h3 {
+  color: #101123;
+  margin-bottom: 8px;
+  font-size: 1.13rem;
+}
+.calc-btn {
+  background: #D4AF37;
+  color: #181B2A;
+  font-weight: 700;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background 0.19s;
+}
+.calc-btn:hover {
+  background: #a98d34;
+  color: #fff;
+}
+/* Portfolio Grid */
+.portfolio {
+  background: #232342;
+  padding: 40px 0 24px 0;
+  text-align: center;
+}
+.portfolio h2 {
+  color: #D4AF37;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.portfolio-gallery {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portfolio-gallery img {
+  width: 184px;
+  height: 124px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 16px #10112355;
+  margin-bottom: 13px;
+}
+/* Testimonials */
+.testimonials {
+  background: #181B2A;
+  text-align: center;
+  padding: 38px 14px 20px 14px;
+}
+.testimonials h2 {
+  color: #D4AF37;
+  font-size: 1.57rem;
+  margin-bottom: 16px;
+}
+.testimonial-list {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+}
+.testimonial-list blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 22px 0 6px 0;
+  color: #EEC06E;
+}
+.testimonial-list cite {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  font-size: 1.01rem;
+}
+/* Footer */
+footer {
+  background: #101123;
+  color: #D4AF37;
+  text-align: center;
+  padding: 26px 0 10px 0;
+}
+.footer-content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.footer-content a {
+  color: #D4AF37;
+  text-decoration: underline;
+}
+iframe {
+  margin-top: 9px;
+  border-radius: 8px;
+}
+/* Responsive Design */
+@media (max-width: 950px) {
+  .card-container, .portfolio-gallery, .services-grid {
+    flex-direction: column !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 18px !important;
+  }
+  .services-grid {
+    width: 96%;
+  }
+}
+@media (max-width: 670px) {
+  .services, .estimate-cards, .portfolio, .testimonials {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+  .logo {
+    margin: 0 auto 7px auto;
+    display: block;
+  }
+}
